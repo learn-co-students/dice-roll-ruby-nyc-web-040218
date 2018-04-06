@@ -3,5 +3,8 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  # code goes here
+  rang = (1..6).to_a
+  return rang[rand(rang.length)]
 end
+
+1
